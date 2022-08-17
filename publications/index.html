@@ -113,6 +113,13 @@
           
           
           
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                Projects
+                
+              </a>
+          </li>
+          
           
           
           
@@ -153,6 +160,199 @@
   <article>
     <div class="publications">
 
+
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">GECCO</abbr>
+    
+  
+  </div>
+
+  <div id="ZhengD22" class="col-sm-8">
+    
+      <div class="title">Better Approximation Guarantees for the NSGA-II by Using the Current Crowding Distance</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  <b>Zheng</b>, <b>Weijie</b>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  and Doerr, Benjamin*
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Genetic and Evolutionary Computation Conference, GECCO</em>
+      
+      
+        2022
+      
+      </div>
+	  <!-- Display the note in bibtex -->
+	  
+	  
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+      <a href="https://arxiv.org/abs/2203.02693" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>A recent runtime analysis (Zheng, Liu, Doerr (2022)) has shown that a variant of the NSGA-II algorithm can efficiently compute the full Pareto front of the OneMinMax problem when the population size is by a constant factor larger than the Pareto front, but that this is not possible when the population size is only equal to the Pareto front size. In this work, we analyze how well the NSGA-II approximates the Pareto front when it cannot compute the whole front. We observe experimentally and by mathematical means that already when the population size is half the Pareto front size, relatively large gaps in the Pareto front remain. The reason for this phenomenon is that the NSGA-II in the selection stage computes the crowding distance once and then repeatedly removes individuals with smallest crowding distance without updating the crowding distance after each removal. We propose an efficient way to implement the NSGA-II using the momentary crowding distance. In our experiments, this algorithm approximates the Pareto front much better than the previous version. We also prove that the gaps in the Pareto front are at most a constant factor larger than the theoretical minimum.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">AAAI</abbr>
+    
+  
+  </div>
+
+  <div id="ZhengLD22" class="col-sm-8">
+    
+      <div class="title">A First Mathematical Runtime Analysis of the Non-Dominated Sorting Genetic Algorithm II (NSGA-II)</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  <b>Zheng</b>, <b>Weijie</b>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Liu, Yufei,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+            
+          
+          
+          
+            
+              
+                
+                  and Doerr, Benjamin*
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In AAAI Conference on Artificial Intelligence, AAAI</em>
+      
+      
+        2022
+      
+      </div>
+	  <!-- Display the note in bibtex -->
+	  
+	  
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+      <a href="https://arxiv.org/abs/2112.08581" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The non-dominated sorting genetic algorithm II (NSGA-II) is the most intensively used multi-objective evolutionary algorithm (MOEA) in real-world applications. However, in contrast to several simple MOEAs analyzed also via mathematical means, no such study exists for the NSGA-II so far. In this work, we show that mathematical runtime analyses are feasible also for the NSGA-II. As particular results, we prove that with a population size larger than the Pareto front size by a constant factor, the NSGA-II with two classic mutation operators and three different ways to select the parents satisfies the same asymptotic runtime guarantees as the SEMO and GSEMO algorithms on the basic OneMinMax and LOTZ benchmark functions. However, if the population size is only equal to the size of the Pareto front, then the NSGA-II cannot efficiently compute the full Pareto front (for an exponential number of iterations, the population will always miss a constant fraction of the Pareto front). Our experiments confirm the above findings.</p>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
 
   <h2 class="year">2021</h2>
   <ol class="bibliography"><li><div class="row">
@@ -640,7 +840,7 @@
 
       <div class="periodical">
       
-        <em>In Genetic and Evolutionary Computation Conference</em>
+        <em>In Genetic and Evolutionary Computation Conference, GECCO</em>
       
       
         2020
@@ -781,7 +981,7 @@ We prove an easy mathematical runtime guarantee for this algorithm and conduct a
 
   <div id="DoerrZ20tcs" class="col-sm-8">
     
-      <div class="title">Working principles of binary differential evolution</div>
+      <div class="title">Working Principles of Binary Differential Evolution</div>
       <div class="author">
         
           
@@ -875,7 +1075,7 @@ We prove an easy mathematical runtime guarantee for this algorithm and conduct a
     
 <footer class="fixed-bottom">
   <div class="container mt-0">
-    &copy; Copyright 2021 Weijie  Zheng (郑为杰).
+    &copy; Copyright 2022 Weijie  Zheng (郑为杰).
     Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
     
