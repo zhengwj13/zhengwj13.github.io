@@ -368,6 +368,8 @@ His previous research also focused on parallel optimization / high-performance c
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
     
     
       <a href="https://doi.org/10.1109/TEVC.2024.3402996" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
@@ -382,6 +384,10 @@ His previous research also focused on parallel optimization / high-performance c
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Recent theoretical works have shown that the NSGA-II efficiently computes the full Pareto front when the population size is large enough. In this work, we study how well it approximates the Pareto front when the population size is smaller. For the OneMinMax benchmark, we point out situations in which the parents and offspring cover well the Pareto front, but the next population has large gaps on the Pareto front. Our mathematical proofs suggest as reason for this undesirable behavior that the NSGA-II in the selection stage computes the crowding distance once and then removes individuals with smallest crowding distance without considering that a removal increases the crowding distance of some individuals. We then analyse two variants not prone to this problem. For the NSGA-II that updates the crowding distance after each removal [Kukkonen and Deb (2006)] and the steady-state NSGA-II [Nebro and Durillo (2009)], we prove that the gaps in the Pareto front are never more than a small constant factor larger than the theoretical minimum. This is the first mathematical work on the approximation ability of the NSGA-II and the first runtime analysis for the steady-state NSGA-II. Experiments also show the superior approximation ability of the two NSGA-II variants.</p>
+    </div>
     
   </div>
 </div>
@@ -409,7 +415,7 @@ His previous research also focused on parallel optimization / high-performance c
             
               
                 
-                  Li, Mingfeng,
+                  Li, Mingfeng#,
                 
               
             
@@ -424,7 +430,7 @@ His previous research also focused on parallel optimization / high-performance c
             
               
                 
-                  Zhang, Qiang,
+                  Zhang, Qiang#,
                 
               
             
@@ -578,7 +584,11 @@ simple aging strategy</div>
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     
+    
+    
+      <a href="https://www.ijcai.org/proceedings/2025/988" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     
     
     
@@ -590,6 +600,10 @@ simple aging strategy</div>
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Different from single-objective evolutionary algorithms, where non-elitism is an established concept, multi-objective evolutionary algorithms almost always select the next population in a greedy fashion. In the only notable exception, a stochastic selection mechanism was recently proposed for the SMS-EMOA and was proven to speed up computing the Pareto front of the bi-objective jump benchmark with problem size n and gap parameter k by a factor of max1,2^(k/4)/n. While this constitutes the first proven speed-up from non-elitist selection, suggesting a very interesting research direction, it has to be noted that a true speed-up only occurs for k ≥ 4log(n), where the runtime is super-polynomial, and that the advantage reduces for larger numbers of objectives as shown in a later work. In this work, we propose a different non-elitist selection mechanism based on aging, which exempts individuals younger than a certain age from a possible removal. This remedies the two shortcomings of stochastic selection: We prove a speed-up by a factor of max1,Θ(k)^(k-1), regardless of the number of objectives. In particular, a positive speed-up can already be observed for constant k, the only setting for which polynomial runtimes can be witnessed. Overall, this result supports the use of non-elitist selection schemes, but suggests that aging-based mechanisms can be considerably more powerful than stochastic selection mechanisms.</p>
+    </div>
     
   </div>
 </div>
@@ -675,7 +689,11 @@ for the non-dominated sorting genetic algorithm III (NSGA-III)</div>
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     
+    
+    
+      <a href="https://doi.org/10.24963/ijcai.2025/986" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     
     
     
@@ -687,6 +705,10 @@ for the non-dominated sorting genetic algorithm III (NSGA-III)</div>
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>This work conducts a first theoretical analysis studying how well the NSGA-III approximates the Pareto front when the population size Nis less than the Pareto front size. We show that when N is at least the number Nr of reference points, then the approximation quality, measured by the maximum empty interval (MEI) indicator, on the ONEMINMAX benchmark is such that there is no empty interval longer than ⌈(5−2√2)n/(Nr−1)⌉. This bound is independent of N, which suggests that further increasing the population size does not increase the quality of approximation when Nr is fixed. This is a notable difference to the NSGA-II with sequential survival selection, where increasing the population size improves the quality of the approximations. We also prove two results indicating approximation difficulties when N < Nr. These theoretical results suggest that the best setting to approximate the Pareto front is Nr = N. In our experiments, we observe that with this setting the NSGA-III computes optimal approximations, very different from the NSGA-II, for which optimal approximations have not been observed so far.</p>
+    </div>
     
   </div>
 </div>
@@ -755,6 +777,8 @@ for the non-dominated sorting genetic algorithm III (NSGA-III)</div>
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
     
     
       <a href="https://doi.org/10.1109/TEVC.2023.3320278" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
@@ -769,6 +793,10 @@ for the non-dominated sorting genetic algorithm III (NSGA-III)</div>
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The nondominated sorting genetic algorithm II (NSGA-II) is one of the most prominent algorithms to solve multiobjective optimization problems. Despite numerous successful applications, several studies have shown that the NSGA-II is less effective for larger numbers of objectives. In this work, we use mathematical runtime analyses to rigorously demonstrate and quantify this phenomenon. We show that even on the simple  m-objective generalization of the discrete OneMinMax benchmark, where every solution is Pareto optimal, the NSGA-II also with large population sizes cannot compute the full Pareto front (objective vectors of all Pareto optima) in subexponential time when the number of objectives is at least three. The reason for this unexpected behavior lies in the fact that in the computation of the crowding distance, the different objectives are regarded independently. This is not a problem for two objectives, where any sorting of a pairwise incomparable set of solutions according to one objective is also such a sorting according to the other objective (in the inverse order).</p>
+    </div>
     
   </div>
 </div>
@@ -857,6 +885,8 @@ for the non-dominated sorting genetic algorithm III (NSGA-III)</div>
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
     
     
       <a href="https://www.sciencedirect.com/science/article/pii/S0890540123001281" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
@@ -871,6 +901,10 @@ for the non-dominated sorting genetic algorithm III (NSGA-III)</div>
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Choosing a suitable algorithm from the myriads of different search heuristics is difficult when faced with a novel optimization problem. In this work, we argue that the purely academic question of what could be the best possible algorithm in a certain broad class of black-box optimizers can give fruitful indications in which direction to search for good established heuristics. We demonstrate this approach on the recently proposed DLB benchmark. Our finding that the unary unbiased black-box complexity is only O(n^2) suggests the Metropolis algorithm as an interesting candidate and we prove that it solves the DLB problem in quadratic time. We also prove that better runtimes cannot be obtained in the class of unary unbiased algorithms. We therefore shift our attention to algorithms that use the information of more parents to generate new solutions and find that the significance-based compact genetic algorithm can solve the DLB problem in time O(n log n).</p>
+    </div>
     
   </div>
 </div>
@@ -939,7 +973,11 @@ for the non-dominated sorting genetic algorithm III (NSGA-III)</div>
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     
+    
+    
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/30077" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     
     
     
@@ -951,6 +989,10 @@ for the non-dominated sorting genetic algorithm III (NSGA-III)</div>
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The widely used multiobjective optimizer NSGA-II was recently proven to have considerable difficulties in many-objective optimization. In contrast, experimental results in the literature show a good performance of the SMS-EMOA, which can be seen as a steady-state NSGA-II that uses the hypervolume contribution instead of the crowding distance as the second selection criterion. This paper conducts the first rigorous runtime analysis of the SMS-EMOA for many-objective optimization. To this aim, we first propose a many-objective counterpart, the m-objective mOJZJ problem, of the bi-objective OJZJ benchmark, which is the first many-objective multimodal benchmark used in a mathematical runtime analysis. We prove that SMS-EMOA computes the full Pareto front of this benchmark in an expected number of O(M^2 n^k) iterations, where n denotes the problem size (length of the bit-string representation), k the gap size (a difficulty parameter of the problem), and M=(2n/m-2k+3)^(m/2) the size of the Pareto front. This result together with the existing negative result on the original NSGA-II shows that in principle, the general approach of the NSGA-II is suitable for many-objective optimization, but the crowding distance as tie-breaker has deficiencies. We obtain three additional insights on the SMS-EMOA. Different from a recent result for the bi-objective OJZJ benchmark, the stochastic population update often does not help for mOJZJ. It results in a 1/Θ(min(Mk^(1/2)/2^(k/2),1)) speed-up, which is Θ(1) for large m such as m>k. On the positive side, we prove that heavy-tailed mutation still results in a speed-up of order k^(0.5+k-β). Finally, we conduct the first runtime analyses of the SMS-EMOA on the bi-objective OneMinMax and LOTZ benchmarks and show that it has a performance comparable to the GSEMO and the NSGA-II.</p>
+    </div>
     
   </div>
 </div>
@@ -966,8 +1008,7 @@ for the non-dominated sorting genetic algorithm III (NSGA-III)</div>
 
   <div id="LiZXSY24" class="col-sm-8">
     
-      <div class="title">Runtime analysis for
-state-of-the-art multi-objective evolutionary algorithms on the subset selection problem</div>
+      <div class="title">When Does the Time-Linkage Property Help Optimization by Evolutionary Algorithms?</div>
       <div class="author">
         
           
@@ -1066,7 +1107,11 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     
+    
+    
+      <a href="https://doi.org/10.1007/978-3-031-70071-2_18" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     
     
     
@@ -1078,6 +1123,10 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Recent theoretical works show that the time-linkage property challenges evolutionary algorithms to optimize. Here we consider three positive circumstances and give the first runtime analyses to show that the time-linkage property can also help the optimization of evolutionary algorithms. The problem is easier to optimize if the time-linkage property changes the optimal function value to an easy-to-reach one. We construct a time-linkage variant of the Cliff problem with this feature and prove that conditional on an event that happens with Ω(1) probability, the (1+1) EA reaches the optimum in expected O(n ln n) iterations. It is much better than the expected runtime of Θ(n^d) for the original Cliff. If the time-linkage property does not change the optimal function value but enlarges the optimal solution set, the problem is also possible to be easier to optimize. We construct another time-linkage variant of the Cliff problem with this feature, and also prove an  expected runtime of O(n ln n) (conditional on an event happening with Ω(1) probability), compared with the expected runtime of Ω(n^(d-2)) for the corresponding problem without the time-linkage property. Even if the time-linkage property neither changes the optimal function value nor the optimal solution set, it is still possible to ease this problem if the intermediate solution, from which the optimum is easier to reach, is more prone to be maintained. We construct a time-linkage variant of the Jump problem, and proved that the expected runtime is reduced from O(n^k) to O(n^(k-1)). Our experiments also verify the above theoretical findings.</p>
+    </div>
     
   </div>
 </div>
@@ -1193,7 +1242,11 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     
+    
+    
+      <a href="https://doi.org/10.1007/978-3-031-70071-2_17" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     
     
     
@@ -1205,6 +1258,10 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>In the last few years, the mathematical runtime analysis of randomized search heuristics has made a huge step forward by developing the methods to analyze the most prominent multi-objective evolutionary algorithms (MOEAs) as opposed to previously only simplistic algorithms. These results confirmed that many previous results extend to state-of-the-art MOEAs, but also showed that algorithms like the NSGA-II can have unexpected difficulties on problems easily solved by simple MOEAs. We continue this line of research by analyzing how the NSGA-II and the SMS-EMOA (also with a recently proposed stochastic population update) solve the NP-hard subset selection problem. For these two state-of-the-art algorithms, we prove performance guarantees that agree with those previously shown for the POSS algorithm, a variant of the simplistic GSEMO, namely that they compute (1-e^(-γ))-approximate solutions in expected time O(k^2 n). Our experiments confirm these findings. This work is the first runtime analysis of state-of-the-art MOEAs for the subset selection problem, and also the first runtime analysis of SMS-EMOA on a combinatorial problem.</p>
+    </div>
     
   </div>
 </div>
@@ -1303,7 +1360,11 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     
+    
+    
+      <a href="https://doi.org/10.1609/AAAI.V38I18.30078" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     
     
     
@@ -1315,6 +1376,10 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The Metropolis algorithm can cope with local optima by accepting inferior solutions with suitably small probability. That this can work well was not only observed in empirical research, but also via mathematical runtime analyses on single-objective benchmarks. This paper takes several steps towards understanding, again via theoretical means, whether such advantages can also be obtained in multi-objective optimization. The original Metropolis algorithm has two components, one-bit mutation and the acceptance strategy, which allows accepting inferior solutions. When adjusting the acceptance strategy to multi-objective optimization in the way that an inferior solution that is accepted replaces its parent, then the Metropolis algorithm is not very efficient on our multi-objective version of the multimodal DLB benchmark called DLTB. With one-bit mutation, this multi-objective Metropolis algorithm cannot optimize the DLTB problem, with standard bit-wise mutation it needs at least Ω(n^5) time to cover the full Pareto front. In contrast, we show that many other multi-objective optimizers, namely the GSEMO, SMS-EMOA, and NSGA-II, only need time O(n^4). When keeping the parent when an inferior point is accepted, the multi-objective Metropolis algorithm both with one-bit or standard bit-wise mutation solves the DLTB problem efficiently, with one-bit mutation experimentally leading to better results than several other algorithms. Overall, our work suggests that the general mechanism of the Metropolis algorithm can be interesting in multi-objective optimization, but that the implementation details can have a huge impact on the performance.</p>
+    </div>
     
   </div>
 </div>
@@ -1383,6 +1448,8 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
     
     
       <a href="https://direct.mit.edu/evco/article/31/4/337/115603/Theoretical-Analyses-of-Multiobjective" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
@@ -1397,6 +1464,10 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Multiobjective evolutionary algorithms are successfully applied in many real-world multiobjective optimization problems. As for many other AI methods, the theoretical understanding of these algorithms is lagging far behind their success in practice. In particular, previous theory work considers mostly easy problems that are composed of unimodal objectives. As a first step towards a deeper understanding of how evolutionary algorithms solve multimodal multiobjective problems, we propose the OJZJ problem, a bi-objective problem composed of two objectives isomorphic to the classic jump function benchmark. We prove that the simple evolutionary multiobjective optimizer (SEMO) with probability one does not compute the full Pareto front, regardless of the runtime. In contrast, for all problem sizes n and all jump sizes k∈[4.. n/2-1], the global SEMO (GSEMO) covers the Pareto front in an expected number of Θ((n-2k)n^k) iterations. For k=o(n), we also show the tighter bound 1.5en^(k+1)±o(n^(k+1)), which might be the first runtime bound for an MOEA that is tight apart from lower-order terms. We also combine the GSEMO with two approaches that showed advantages in single-objective multimodal problems. When using the GSEMO with a heavy-tailed mutation operator, the expected runtime improves by a factor of at least k^(Ω(k)). When adapting the recent stagnation-detection strategy of Rajabi and Witt (2022) to the GSEMO, the expected runtime also improves by a factor of at least k^(Ω(k)) and surpasses the heavy-tailed GSEMO by a small polynomial factor in k. Via an experimental analysis, we show that these asymptotic differences are visible already for small problem sizes: A factor-5 speed-up from heavy-tailed mutation and a factor-10 speed-up from stagnation detection can be observed already for jump size 4 and problem sizes between 10 and 50. Overall, our results show that the ideas recently developed to aid single-objective evolutionary algorithms to cope with local optima can be effectively employed also in multiobjective optimization.</p>
+    </div>
     
   </div>
 </div>
@@ -1465,6 +1536,8 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
     
     
       <a href="http://jmlr.org/papers/v24/22-0628.html" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
@@ -1479,6 +1552,25 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>Estimation-of-distribution algorithms (EDAs) are optimization algorithms that learn a distribution from which good solutions can be sampled easily. A key parameter of most EDAs
+is the sample size (population size). Too small values lead to the undesired effect of genetic
+drift, while larger values slow down the process.
+Building on a quantitative analysis of how the population size leads to genetic drift, we
+design a smart-restart mechanism for EDAs. By stopping runs when the risk for genetic
+drift is high, it automatically runs the EDA in good parameter regimes.
+Via a mathematical runtime analysis, we prove a general performance guarantee for
+this smart-restart scheme. For many situations where the optimal parameter values are
+known, this shows that the restart scheme automatically finds these optimal values, leading
+to the asymptotically optimal performance.
+We also conduct an extensive experimental analysis. On four classic benchmarks, the
+smart-restart scheme leads to a performance close to the one obtainable with optimal
+parameter values. We also conduct experiments with PBIL (cross-entropy algorithm) on
+the max-cut problem and the bipartition problem. Again, the smart-restart mechanism
+finds much better values for the population size than those suggested in the literature,
+leading to a much better performance.</p>
+    </div>
     
   </div>
 </div>
@@ -1547,6 +1639,8 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
 
     <div class="links">
     
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
     
     
       <a href="https://www.sciencedirect.com/science/article/pii/S0004370223001625" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
@@ -1561,6 +1655,10 @@ state-of-the-art multi-objective evolutionary algorithms on the subset selection
     </div>
 
     <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+      <p>The non-dominated sorting genetic algorithm II (NSGA-II) is the most intensively used multi-objective evolutionary algorithm (MOEA) in real-world applications. However, in contrast to several simple MOEAs analyzed also via mathematical means, no such study exists for the NSGA-II so far. In this work, we show that mathematical runtime analyses are feasible also for the NSGA-II. As particular results, we prove that with a population size four times larger than the size of the Pareto front, the NSGA-II with two classic mutation operators and four different ways to select the parents satisfies the same asymptotic runtime guarantees as the SEMO and GSEMO algorithms on the basic OneMinMax and LeadingOnesTrailingZeroes benchmarks. However, if the population size is only equal to the size of the Pareto front, then the NSGA-II cannot efficiently compute the full Pareto front: for an exponential number of iterations, the population will always miss a constant fraction of the Pareto front. Our experiments confirm the above findings.</p>
+    </div>
     
   </div>
 </div>
